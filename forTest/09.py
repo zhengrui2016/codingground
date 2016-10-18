@@ -16,13 +16,13 @@ def triangle(maxLevel):
         level = level + 1
 
 
-num = input("输入金字塔的层数（如果不输入，默认为4层）：")
+num = input("input level(default 4):")
 if num.isnumeric():
     n = int(num)
     if n>10:
-        print('太高了，没那么多钱！')
+        print('too big, no money!')
     elif n<3:
-        print('层数太小，法老住不下！')
+        print('too small, no room!')
     else:
         triangle(int(n))
 
@@ -30,4 +30,4 @@ if len(num) == 0:
     triangle(4)
 
 if num.isalpha():
-    print("请输入3到10之前的数字")
+    print("input number between 3 and 10")
