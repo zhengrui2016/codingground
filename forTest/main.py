@@ -1,3 +1,3 @@
-# Hello World program in Python
+# Hello testing
     
-print ("Hello World!");
+print ("Hello testing");
